@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindBmi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>โปรแกรมคำนวณดัชนีมวลกาย BMI</h1>
+    </div>
+    <div class="inside-box">
+        <h2 class="inside-head">โปรดใส่ค่าลงในช่องว่าง</h2>
+        <input class="textbox"id="weight" name ="weight" type="text" placeholder="ใส่น้ำหนัก/กิโลกรัม">
+        <input class="textbox"id="hight" name ="hight" type="text" placeholder="ใส่ส่วนสูง/เซนติเมตร">
+        <br>
+        <button class="btn" onclick="calculateBmi(document.getElementById('weight,hight'))">คำนวณ</button>
+        <br>
+        <p class="presult">ผลลัพธ์</p>
+        <br>
+        <h2 class="answer"id="result"></h2>
+        
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
